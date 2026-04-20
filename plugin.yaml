@@ -12,6 +12,7 @@ runtimes:
 rules:
   - rules/everything-claude-code-guardrails.md
   - rules/node.md
+  - rules/plugin-ecc-conventions.md
 
 prompt_fragments:
   - AGENTS.md
