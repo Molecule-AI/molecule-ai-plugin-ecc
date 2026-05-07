@@ -105,7 +105,7 @@ EOF
 ```
 
 Or via the GitHub web UI:
-1. Go to https://github.com/Molecule-AI/molecule-ai-plugin-ecc/releases/new
+1. Go to https://git.moleculesai.app/molecule-ai/molecule-ai-plugin-ecc/releases/new
 2. Select the tag `vX.Y.Z`
 3. Paste the changelog into the release body
 4. Publish release

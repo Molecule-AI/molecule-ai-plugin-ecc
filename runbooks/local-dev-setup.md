@@ -153,7 +153,7 @@ Verify `plugins_registry` is installed in the active venv:
 ```bash
 pip show plugins_registry
 # If not installed:
-pip install git+https://github.com/Molecule-AI/plugins_registry.git
+pip install git+https://git.moleculesai.app/molecule-ai/plugins_registry.git
 ```
 
 ### CI failure on markdownlint

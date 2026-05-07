@@ -123,7 +123,7 @@ remote: error: pre-receive hook declined
 **Cause:** Either (a) branch protection requires PR review, or (b) CI failed on the latest commit.
 
 **Fix:**
-1. Check CI status at: `https://github.com/Molecule-AI/molecule-ai-plugin-ecc/actions`
+1. Check CI status at: `https://git.moleculesai.app/molecule-ai/molecule-ai-plugin-ecc/actions`
 2. If CI failed, fix the failures and push again
 3. If CI passed but push still blocked, use a PR instead of pushing directly to `main`
 
