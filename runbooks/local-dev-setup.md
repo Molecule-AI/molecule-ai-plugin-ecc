@@ -17,7 +17,7 @@ This runbook covers setting up a local development environment for `plugin-ecc`.
 
 ```bash
 # Clone the repo
-git clone https://github.com/Molecule-AI/molecule-ai-plugin-ecc.git
+git clone https://git.moleculesai.app/molecule-ai/molecule-ai-plugin-ecc.git
 cd molecule-ai-plugin-ecc
 
 # Install markdownlint CLI (used for pre-commit linting)
