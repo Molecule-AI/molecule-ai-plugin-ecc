@@ -25,3 +25,15 @@ __pycache__/
 *.py[cod]
 *$py.class
 .pytest_cache/
+# Python bytecode (append only — do not remove entries above)
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+*.egg
+.pytest_cache/
+build/
+dist/
+.eggs/
