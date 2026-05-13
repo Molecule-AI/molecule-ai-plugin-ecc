@@ -1,0 +1,9 @@
+"""Hermes adaptor — uses the generic rule+skill installer.
+
+Hermes loads skills from /configs/skills/ via the shared skill_loader,
+which is runtime-agnostic. The AgentskillsAdaptor wires rules, skills,
+hooks, and commands for Claude Code-style harness environments. For Hermes,
+the same adaptor handles rules and skills; hooks/commands are no-ops
+that Hermes ignores gracefully.
+"""
+from plugins_registry.builtins import AgentskillsAdaptor as Adaptor  # noqa: F401
